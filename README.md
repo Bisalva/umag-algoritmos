@@ -1,5 +1,11 @@
 # Sobre las ayudantías
 
+---
+
+Las ayudantías tendrán una parte expositiva y una parte de trabajo autónomo donde tendrán que aplicar los conocimientos aprendidos en la clase.
+
+---
+
 ## Actualización
 
 #fecha 28-03-2026
