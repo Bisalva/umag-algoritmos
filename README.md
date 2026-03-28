@@ -1,25 +1,5 @@
 # Sobre las ayudantías
 
-| A cargo    | Ponderación |
-| ---------- | ----------- |
-| Profe J.C. | ?           |
-| Yo         | ?           |
-
-- Las clases de ayudantía y/o Laboratorio tendrán un valor del `X%` de la nota final del ramo.
-- Es decir, `X%` corresponde al profesor J.C., el `X%` corresponde a mí. 
-- Se debe entregar las tareas que se van dando clase a clase.
-- Tu nota en las ayudantías comienza con un `7.0` y **cada tarea no entregada** implica una resta porcentual a esta nota.
-
-> [!example] Ejemplo
-> - Entregué 9 de 10 tareas, mi nota será $\rightarrow 7.0 \times 0.9$, o sea, `6,3`
-
-Y tus notas se verían así:
-
-| A cargo    | Notas | Ponderación |
-| ---------- | ----- | ----------- |
-| Profe J.C. | ¿?    | ?           |
-| Yo         | 6.3   | ?           |
-
 ## Actualización
 
 #fecha 28-03-2026
