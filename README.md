@@ -10,10 +10,11 @@ Las ayudantías tendrán una parte expositiva y una parte de trabajo autónomo d
 
 #fecha 28-03-2026
 
-| Laboratorio   | ¿Hubo tarea? | Acerca de | Contenidos                               |
-| ------------- | ------------ | --------- | ---------------------------------------- |
-| 23-03 & 25-03 | Si           | LaTeX     | Fundamentos de LaTeX para hacer informes |
-| 30-03 & 01-04 | -            | -         | -                                        |
+| Laboratorio   | ¿Hubo tarea? | Acerca de       | Contenidos                                |
+| ------------- | ------------ | --------------- | ----------------------------------------- |
+| 23-03 & 25-03 | Si           | LaTeX           | Fundamentos de LaTeX para hacer informes  |
+| 30-03 & 01-04 | No           | Reforzamiento C | Manejo fundamental de C +  gnuplot básico |
+| 06-04 & 08-04 | -            | -               | -                                         |
 
 
 ## Dónde, cómo y qué enviar
