@@ -459,7 +459,7 @@ No es necesario dominarlo ahora, pero es importante saber que existe. En el futu
 
 ---
 
-## Tarea de Laboratorio 1
+## Tarea del Laboratorio 1
 
 Redactar un informe corto en LaTeX que contenga los siguientes elementos:
 

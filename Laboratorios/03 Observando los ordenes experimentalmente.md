@@ -339,3 +339,20 @@ void f5(int n) {
 
 > [!question] Desde la teoría
 > El orden de `f5` puede establecerse analíticamente, pero... ¿coincide con lo que muestran los datos? ¿Su pendiente es mayor o menor que la de `f4`?
+
+## Tarea — Laboratorio 3
+
+Genera los siguientes tres gráficos a partir de los datos obtenidos en el experimento de la clase de hoy:
+
+- **`plot_f1_f2_f3.png`** — curvas de f1, f2 y f3.
+- **`plot_f1_a_f5.png`** — curvas de f1, f2, f3, f4 y f5.
+- **`plot_f4_f5.png`** — curvas de f4 y f5.
+
+> [!question] Algo que notar 
+> Al graficar las cinco funciones juntas, f1, f2 y f3 quedarán pegadas al eje X. Ya vimos este comportamiento en clases con los ejemplos de Fibonacci: cuando una función crece mucho más rápido que las demás, las aplasta visualmente y la comparación pierde sentido.
+>
+> ¿Existe alguna forma de solucionar esto?
+
+> [!tip] Pista
+> Investiga la opción `set logscale y` de gnuplot y prueba aplicarla al gráfico que contiene las cinco funciones.
+
