@@ -17,6 +17,7 @@ Las ayudantías tendrán una parte expositiva y una parte de trabajo autónomo d
 | 06-04 & 08-04 | Si           | Ordenes Algorítimos | Ejecución de código, exportar en csv y graficar resultados |
 | 13-04 & 15-04 | -            | -                   | -                                                          |
 
+---
 
 ## Dónde, cómo y qué enviar
 
@@ -33,6 +34,15 @@ Las ayudantías tendrán una parte expositiva y una parte de trabajo autónomo d
 > Los archivos deben describirse de la misma forma que el asunto.
 > Ej: `Diseño - Lab N°67 Ariel.tar`
 
+## Tiempos de entrega
+
+> [!info] Tiempos de entrega
+> 6 días después de la clase correspondiente.
+> - Los del lunes tienen hasta el domingo a las 23:59 hrs.
+> - Los del miércoles tienen hasta el martes a las 23:59 hrs.
+
+---
+
 # Sobre los apuntes
 
 ## Valoración
@@ -42,6 +52,8 @@ Estos apuntes tienen como objetivo ayudar a las prácticas del ramo. Si bien pro
 Por este motivo, se recomienda utilizarlos únicamente como **apoyo complementario** y no como **sustituto** de la documentación oficial de los contenidos que se pueden estudiar para los contenidos del ramo.
 
 El lector es responsable de contrastar la información con las fuentes oficiales. Se agradece cualquier retroalimentación o contribución que ayude a mejorar estos apuntes.
+
+---
 
 ## Sobre Obsidian
 
