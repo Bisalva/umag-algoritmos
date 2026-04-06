@@ -86,7 +86,7 @@ En el archivo `algoritmos.c` guardaremos todos los algoritmos que ejecutemos dur
  * Función sencilla - O(n) con 1 ciclo.
  * ──────────────────────────────────────────────────────────── */
 void f1(int n) {
-    int x = 0;
+    volatile int x = 0;
     for (int i = 0; i < n; i++)
         x += i;
 }
@@ -169,7 +169,6 @@ void run_experiment(void) {
     printf("--------------------------------------\n");
 
     // A PARTIR DE ACÁ SIGUEN LOS DEMÁS BLOQUES DE CÓDIGO, NO OLVIDES!
-}
 ```
 
 ### Ciclo de ejecución
@@ -200,7 +199,6 @@ Declaramos `clock_t start` y `end` dentro del ciclo. Aunque podríamos declararl
         double time_f3 = (double)(end - start) / CLOCKS_PER_SEC;
 
         // Dentro del ciclo hay más código que incorporaremos.
-    }
 ```
 
 ### Guardar ejecución
@@ -208,8 +206,7 @@ Declaramos `clock_t start` y `end` dentro del ciclo. Aunque podríamos declararl
 Dentro del ciclo, una vez medidos los tiempos, los almacenamos en la estructura antes de escribirlos al CSV y mostrarlos en terminal. Pasar los valores por la estructura puede parecer redundante, pero sirve para tener clara la separación entre la medición y el uso de esos datos; además, si en el futuro queremos procesarlos de otra forma, ya están disponibles en memoria:
 
 ```c
-    for (int n = 0; n <= NUM_VALUES; n += 10) {
-        // ANTES DE ESTO VA LA EJECUCIÓN!
+        // ANTES DE ESTO VA EL FOR!
 
         resultados[struct_idx].n = n;
         resultados[struct_idx].time_f1 = time_f1;
@@ -326,7 +323,7 @@ Finalmente, agrega `f5` de orden $O(n \log n)$:
  * Función de prueba - O(n log n)
  * ──────────────────────────────────────────────────────────── */
 void f5(int n) {
-    int x = 0;
+    volatile int x = 0;
     for (int i = 1; i < n; i++) {
         int j = i;
         while (j > 1) {
@@ -342,6 +339,10 @@ void f5(int n) {
 
 ## Tarea — Laboratorio 3
 
+> [!info] La entrega debe ser con los archivos solicitados.
+> 	arilopez@umag.cl 
+> 	jacqueline.aldridge@umag.cl
+
 Genera los siguientes tres gráficos a partir de los datos obtenidos en el experimento de la clase de hoy:
 
 - **`plot_f1_f2_f3.png`** — curvas de f1, f2 y f3.
@@ -355,4 +356,6 @@ Genera los siguientes tres gráficos a partir de los datos obtenidos en el exper
 
 > [!tip] Pista
 > Investiga la opción `set logscale y` de gnuplot y prueba aplicarla al gráfico que contiene las cinco funciones.
+
+> [!info] Duración estimada: 30 minutos.
 
