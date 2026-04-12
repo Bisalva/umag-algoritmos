@@ -15,7 +15,7 @@ Las ayudantías tendrán una parte expositiva y una parte de trabajo autónomo d
 | 23-03 & 25-03 | Si           | LaTeX               | Fundamentos de LaTeX para hacer informes                   |
 | 30-03 & 01-04 | No           | Reforzamiento C     | Manejo fundamental de C +  gnuplot básico                  |
 | 06-04 & 08-04 | Si           | Ordenes Algorítimos | Ejecución de código, exportar en csv y graficar resultados |
-| 13-04 & 15-04 | -            | -                   | -                                                          |
+| 13-04 & 15-04 | No           | QuickSort           | Divide y Vencerás a través de QuickSort                    |
 
 ---
 
@@ -30,9 +30,9 @@ Las ayudantías tendrán una parte expositiva y una parte de trabajo autónomo d
 > Ej: Diseño - Lab N°67 Ariel
 
 > [!info] Qué enviar
-> Depende la tarea, será un `.pdf`, `.md`, `.tar`, etc.
+> Depende la tarea, será un `.pdf`, `.md`, `.tar`, `.png`, etc.
 > Los archivos deben describirse de la misma forma que el asunto.
-> Ej: `Diseño - Lab N°67 Ariel.tar`
+> Ej: `Diseño - Lab N°67 Ariel.pdf`
 
 ## Tiempos de entrega
 
