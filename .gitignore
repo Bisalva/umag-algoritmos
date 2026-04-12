@@ -7,6 +7,9 @@
 
 # Contenidos sin autorización.
 recursos_curso
+recursos_personales
+Excalidraw/Clase 4.excalidraw
+
 
 # Ignorar todos los pdf generados.
 **/*.pdf
