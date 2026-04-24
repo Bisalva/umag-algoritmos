@@ -39,3 +39,40 @@ int main() {
     return 0;
 }
 ```
+
+
+|Caso|Cuándo ocurre|Orden|
+|---|---|---|
+|**Mejor caso**|Pivote siempre divide a la mitad|O(n log n)|
+|**Caso promedio**|Particiones razonablemente balanceadas|O(n log n)|
+|**Peor caso**|Arreglo ya ordenado + pivote = último|O(n²)|
+
+```c
+int partition(int arr[], int low, int high) {
+    int pivot = arr[high];
+    printf("  Pivote elegido: %d  (subarreglo índices [%d..%d])\n",
+           pivot, low, high);  // ← estudiante 1 propone esto
+
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if (arr[j] <= pivot) {
+            i++;
+            swap(&arr[i], &arr[j]);
+        }
+    }
+    swap(&arr[i + 1], &arr[high]);
+    return i + 1;
+}
+```
+
+```c
+// Agregar esta función auxiliar
+void print_subarray(int arr[], int low, int high) {
+    printf("  [ ");
+    for (int i = low; i <= high; i++) printf("%d ", arr[i]);
+    printf("]\n");
+}
+
+// Y llamarla al inicio de partition:
+print_subarray(arr, low, high);
+```

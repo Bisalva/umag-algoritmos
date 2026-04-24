@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void swap(int *a, int *b);
+int partition(int arr[], int low, int high);
+void quicksort(int arr[], int low, int high);
+
 void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
@@ -14,9 +18,11 @@ int partition(int arr[], int low, int high) {
         if (arr[j] <= pivot) {
             i++;
             swap(&arr[i], &arr[j]);
-        }
+	    printf("Se comparo: [%d][%d]\n",arr[i],arr[j]);
+	}
     }
     swap(&arr[i + 1], &arr[high]);  // pivote a su posición
+    printf("Pivote a su posicion: [%d][%d]\n",arr[i+1],arr[high]);
     return i + 1;
 }
 
