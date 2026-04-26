@@ -1,5 +1,7 @@
 # QuickSort
 
+### archivo `quicksort.c`
+
 ```c
 #include <stdio.h>
 
@@ -40,6 +42,7 @@ int main() {
 }
 ```
 
+### Ordenes algorítmicos
 
 |Caso|Cuándo ocurre|Orden|
 |---|---|---|
@@ -47,12 +50,16 @@ int main() {
 |**Caso promedio**|Particiones razonablemente balanceadas|O(n log n)|
 |**Peor caso**|Arreglo ya ordenado + pivote = último|O(n²)|
 
+### Torpedo para entender el algoritmo
+
 ```c
 int partition(int arr[], int low, int high) {
     int pivot = arr[high];
     printf("  Pivote elegido: %d  (subarreglo índices [%d..%d])\n",
            pivot, low, high);  // ← estudiante 1 propone esto
-
+           
+	// print_subarray(...);
+	
     int i = low - 1;
     for (int j = low; j < high; j++) {
         if (arr[j] <= pivot) {
